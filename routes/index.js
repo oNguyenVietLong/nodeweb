@@ -13,5 +13,5 @@ router.get('/about', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
   res.render('contact', {page:'Contact Us', menuId:'contact'});
 });
-
+// comment new edit git
 module.exports = router;
